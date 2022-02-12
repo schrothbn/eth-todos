@@ -4,6 +4,7 @@
   "description": "Test project for Blockchain development using a simple todo-list",
   "main": "index.js",
   "scripts": {
+    "deploy": "hardhat run --network ganache scripts/deploy-todolist.js",
     "test": "hardhat test"
   },
   "repository": {
